@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #4d4d4d;
+}
+.container{
+    width: 35vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, rgba(20, 127, 189, 0.788) , rgba(255, 255, 255, 0.986) 60% 70%, rgb(46, 110, 161) )
+}
+.top_bar{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding-top: 15px;
+}
+.top_bar input{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    background: rgb(223, 235, 233);
+    padding-left: 30px;
+    border-radius: 40px;
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 10px 1px gray;
+    font-weight: 400;
+}
+.search_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background: rgb(223, 235, 233);
+    border-radius: 40px;
+    cursor: pointer;    
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.errorMes{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+    color: red;
+
+}
+.weatherImg{
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.weatherTemp{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 500;
+}
+.weatherlocation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.dataContainer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.element{
+   
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    gap:12px
+}
+.data{
+    font-size: 25px;
+    font-weight: 400;
+}
+.text{
+    font-size: 15px;
+    font-weight: 400;
+}
+.icon{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
