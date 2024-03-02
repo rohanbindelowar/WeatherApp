@@ -96,3 +96,8 @@ body{
     height: 30px;
     margin-top: 15px;
 }
+@media screen and (max-width:808){
+    .container{
+        width: 82%;
+    }
+}
